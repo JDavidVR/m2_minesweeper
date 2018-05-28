@@ -1,0 +1,26 @@
+{
+  "minesweeper": {
+    "column": {
+      "minesweeper_id": true,
+      "game_board": true,
+      "playing_board": true,
+      "is_saved": true
+    },
+    "index": {
+      "MINESWEEPER_ID": true,
+      "JDAVIDVR_MINESWEEPER_ID": true
+    },
+    "constraint": {
+      "PRIMARY": true
+    }
+  },
+  "patch_list": {
+    "column": {
+      "patch_id": true,
+      "patch_name": true
+    },
+    "constraint": {
+      "PRIMARY": true
+    }
+  }
+}

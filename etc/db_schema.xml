@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="minesweeper" resource="default" engine="innodb" comment="Minesweeper Table">
+        <column xsi:type="int" name="minesweeper_id" padding="10" unsigned="false" nullable="false" identity="true" comment="Minesweeper Id"/>
+        <column xsi:type="mediumtext" name="game_board" nullable="true" comment="Game Board"/>
+        <column xsi:type="mediumtext" name="playing_board" nullable="true" comment="Playing Board"/>
+        <column xsi:type="smallint" name="is_saved" padding="5" unsigned="true" nullable="false"
+                identity="false" default="0" comment="Is Saved"/>
+        <constraint xsi:type="primary" name="PRIMARY">
+            <column name="minesweeper_id"/>
+        </constraint>
+        <index name="JDAVIDVR_MINESWEEPER_ID" indexType="btree">
+            <column name="minesweeper_id"/>
+        </index>
+    </table>
+</schema>

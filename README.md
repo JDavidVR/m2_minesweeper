@@ -13,7 +13,7 @@ To keep game information it will have an table called minesweeper_game with colu
  | :---: | :--: | :--: | :--: |
   
 
-## Instalation
+## Installation
 Manually (By now): Being in magento ROOT folder execute
 ```
 git clone app/code/JDavidVR/Minesweeper

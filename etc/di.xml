@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+
+    <preference for="JDavidVR\Minesweeper\Api\MinesweeperRepositoryInterface"
+                type="JDavidVR\Minesweeper\Model\MinesweeperRepository"/>
+    <preference for="JDavidVR\Minesweeper\Api\Data\MinesweeperInterface" type="JDavidVR\Minesweeper\Model\Minesweeper"/>
+    <preference for="JDavidVR\Minesweeper\Api\Data\MinesweeperSearchResultsInterface"
+                type="Magento\Framework\Api\SearchResults"/>
+
+</config>
