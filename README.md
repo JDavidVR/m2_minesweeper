@@ -1,6 +1,6 @@
 # Minesweeper
 
-> Only supports magento 2.3-alpha or 2.3-develop from github
+> Only supports magento 2.3-alpha from composer or 2.3-develop from github.
 
 This is a practice module to demostrate Magento 2 DB (for data persitance) and Repositories(for REST connection) capabilities.
 
@@ -16,7 +16,7 @@ To keep game information it will have an table called minesweeper_game with colu
 ## Installation
 Manually (By now): Being in magento ROOT folder execute
 ```
-git clone app/code/JDavidVR/Minesweeper
+git clone git@github.com:JDavidVR/m2_minesweeper.git app/code/JDavidVR/Minesweeper
 php bin/magento module:enable JDavidVR_Minesweeper
 php bin/magento setup:upgrade --keep-generated
 ```
